@@ -52,12 +52,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #FFD700;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/tigers.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -96,29 +96,60 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  transition: all .5s;
+  transition: all 1.5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #DAA520;
+  background: #F0FFF0;
 }
 
-ul.skills {
+ul.dskills {
   padding: 0;
   text-align: center;
 }
 
-.skills li {
+ul.lskills {
+  padding: 0;
+  text-align: center;
+}
+
+
+.dskills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #483D8B;
   color: white;
   padding: 5px 10px;
   margin: 2px;
+  transition-duration: 1s;
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
+.dskills li:hover{
+  color: #FFD700;
 }
+
+.lskills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #FFFAF0;
+  color: black;
+  padding: 5px 10px;
+  margin: 2px;
+  transition-duration: 1s;
+}
+
+.lskills li:hover {
+  color: #DAA520;
+}
+
+.yes {
+  max-width: 90%;
+}
+
+.imgin {
+  text-align: center;
+}
+
 
 footer {
   width: 100%;
